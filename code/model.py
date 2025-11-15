@@ -1,7 +1,6 @@
 from tensorflow.keras.layers import Input, Flatten, MaxPooling1D, AveragePooling1D,Bidirectional,GRU
 from tensorflow.keras.models import Model
 from tensorflow.keras.optimizers import Adam
-from DenseNet import *
 from tensorflow.keras.layers import Dense,LayerNormalization,LeakyReLU
 from tensorflow.keras.regularizers import l2
 from KanNet import *
